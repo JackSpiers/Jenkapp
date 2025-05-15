@@ -17,7 +17,7 @@ pipeline {
         stage('Unit and Integration Tests') {
             steps {
                 echo 'Stage 2: Unit and Integration Tests'
-                echo 'Description:  Running unit tests to validate individual functions and/or methods, and integration tests to verify that components work together'
+                echo 'Description:  Running unit tests to validate individual functions and/or methods, and integration tests to verify that components work together.'
                 echo 'Tool: NUnit, JUnit or Pytest depending on the language can be used for unit testing, integration tests through traditional TestNG or open source Keploy.'
             }
         }
