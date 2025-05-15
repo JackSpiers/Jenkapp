@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'Stage 1: Build'
                 echo 'Description: Build the code to compile and package it using a build automation tool.'
-                echo 'Tool: npm (for Node.js projects), Maven for Java or Gradle'
+                echo 'Tool: npm (for Node.js projects), Maven for Java or Gradle.'
             }
         }
 
@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo 'Stage 2: Unit and Integration Tests'
                 echo 'Description:  Running unit tests to validate individual functions and/or methods, and integration tests to verify that components work together'
-                echo 'Tool: NUnit, JUnit or Pytest depending on the language can be used for unit testing, integration tests through traditional TestNG or open source Keploy'
+                echo 'Tool: NUnit, JUnit or Pytest depending on the language can be used for unit testing, integration tests through traditional TestNG or open source Keploy.'
             }
         }
 
@@ -27,7 +27,7 @@ pipeline {
             steps {
                 echo 'Stage 3: Code Analysis'
                 echo 'Description: Analysis of code for technical issues, bugs, and quality of the code'
-                echo 'Tool: We can use the Integrable SonarCube for Jenkins, specifically the Sonar Cloud. Alternatively for github sided we can use Codacy'
+                echo 'Tool: We can use the Integrable SonarCube for Jenkins, specifically the Sonar Cloud. Alternatively for github sided we can use Codacy.'
             }
         }
 
