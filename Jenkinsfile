@@ -45,7 +45,7 @@ pipeline {
             steps {
                 echo 'Stage 5: Deploy to Staging'
                 echo 'Description: Deployment tool inside a staging environment mimicking a production stage'
-                echo 'Tool: AWS for common deployment, Azure or alternatively Docker for containment'
+                echo 'Tool: AWS for common deployment, Azure or alternatively Docker for containment.'
             }
         }
 
@@ -54,7 +54,7 @@ pipeline {
             steps {
                 echo 'Stage 6: Integration Tests on Staging'
                 echo 'Description: Running integration tests within our staging environment to check it functions as required for full production'
-                echo 'Tool: API Testing through Postman with Newman, Cypress for good end to end testing. Alternatively Selenium or Keploy'
+                echo 'Tool: API Testing through Postman with Newman, Cypress for good end to end testing. Alternatively Selenium or Keploy.'
             }
         }
 
@@ -63,7 +63,7 @@ pipeline {
             steps {
                 echo 'Stage 7: Deploy to Production'
                 echo 'Description: Deploying the application to the production environment after validations are complete'
-                echo 'Tool: AWS has a tool called AWS Code Deploy, alternative for container production pushing tools include Docker, ansible can be used to deploy automation tools in jenkin'
+                echo 'Tool: AWS has a tool called AWS Code Deploy, alternative for container production pushing tools include Docker, ansible can be used to deploy automation tools in jenkin.'
             }
         }
     }
